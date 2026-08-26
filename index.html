@@ -87,6 +87,7 @@
   .card .kicker{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
   .card h3{font-family:'Fraunces',serif;font-weight:600;font-size:1.5rem;margin-bottom:12px}
   .card p{color:var(--muted);font-size:.96rem;margin-bottom:22px}
+  .card-thumb{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;object-position:top;border-radius:4px;border:1px solid var(--iron-3);margin-bottom:22px}
   .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
   .tag{font-family:'JetBrains Mono',monospace;font-size:.68rem;color:var(--cream);background:var(--iron-3);border:1px solid var(--line);padding:4px 9px;border-radius:2px}
   .card-links{display:flex;gap:20px;font-size:.85rem}
@@ -165,6 +166,20 @@
   <div class="wrap">
     <div class="sec-head reveal"><span class="mono">01 — Selected work</span><h2>Things I've built.</h2></div>
     <div class="projects">
+
+      <article class="card reveal">
+        <img class="card-thumb" src="assets/images/linkedin-content-automation.png" alt="LinkedIn Content Automation n8n workflow screenshot" loading="lazy">
+        <div class="kicker"><span class="mono">Agentic AI · Automation</span></div>
+        <h3>LinkedIn Content Automation</h3>
+        <p>An n8n automation that turns a topic into a branded LinkedIn post + image, emails it for Approve/Regenerate, then publishes to LinkedIn. Built with OpenAI, HTML-to-image rendering, and a human-in-the-loop approval flow.</p>
+        <div class="tags">
+          <span class="tag">n8n</span><span class="tag">OpenAI</span><span class="tag">LinkedIn API</span>
+          <span class="tag">Automation</span><span class="tag">HTML-to-Image</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/aasiasattar/linkedin-content-automation" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </article>
 
       <article class="card reveal">
         <div class="kicker"><span class="mono">Full-stack · Ecommerce · In progress</span></div>
